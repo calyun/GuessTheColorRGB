@@ -1,0 +1,96 @@
+body {
+	background-color: lightblue;
+	margin: 0;
+	font-weight: normal;
+	margin: 0px;
+	font-family: "Montserrat", "Avenir", "Comic Sans";
+}
+
+div.heading {
+	text-align: center;
+	background-color: navy;
+	letter-spacing: 0px;
+	font-family: "Montserrat", "Avenir", "Comic Sans";
+	/*"Avenir", "Comic Sans";*/
+}
+
+div.heading h1 {
+	line-height: 1.2;
+	font-weight: normal;
+	margin: 0px;
+	padding-bottom: 20px;
+	font-family: "Montserrat", "Avenir", "Comic Sans";
+}
+
+div.heading h2 {
+	color: white;
+	margin: 0px;
+	padding: 20px;
+	font-family: "Montserrat", "Avenir", "Comic Sans";
+	font-style: italic;
+}
+
+#colorDisplay {
+	font-size: 180%;
+}
+
+div.main-bar {
+	background: white;
+	height: 20%;
+	text-align: center;
+	color: black;
+	padding: auto;
+}
+
+div.settings button {
+	text-align: center;
+	color: navy;
+	background: none;
+	border-style: none;
+	text-transform: uppercase;
+	outline: none;
+	height: 100%;
+	font-weight: 400;
+	font-size: inherit;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+}
+
+div.settings button:hover {
+	background: navy;
+	color: white;
+}
+
+div.settings button.current {
+	background: navy;
+	color: white;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+div.colors {
+	margin: 0px auto;
+	max-width: 500px;
+}
+
+div.colors button {
+	outline: none;
+	background: lightblue;
+	height: 30%;
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	border: none;
+	margin: 0px;
+	border-radius: 0%;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
+
+div.colors button:hover {
+	opacity: 0.5;
+	/* -webkit-filter: brightness(90%); */
+}
